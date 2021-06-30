@@ -10,6 +10,10 @@
     display: table;
   }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
 header {
     background-color: #3161e0;
@@ -48,12 +52,27 @@ ul li:last-child{
     margin-right: 0;
 }
 
-.btn-accedi {
+button{
     background-color: white;
     color: black;
     padding: 8px;
     border: none;
     border-radius: 20px;
+}
+
+.btn-white{
+    padding: 15px;
+    
+}
+
+.btn-black{
+    background-color: #23272a;
+    color: white;
+    padding: 15px;
+}
+
+.btn-violet{
+    
 }
 
 .col-dx{
@@ -97,5 +116,14 @@ ul li:last-child{
 }
 
 .btn-hero{
-    
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 20px;
 }
