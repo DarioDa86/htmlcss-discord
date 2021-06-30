@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
 /* HEADER */
 header {
     background-color: #3161e0;
@@ -12,12 +18,11 @@ header {
 
 .container-header{
     position: fixed;
-    
+
 }
 
 .logo-discord {
     display: inline-block;
-    vertical-align: middle;
 }
 
 nav, ul, li{
@@ -33,7 +38,7 @@ nav, ul, li{
     color: black;
     padding: 8px;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 /* HERO */
