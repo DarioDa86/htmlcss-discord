@@ -13,12 +13,14 @@
 /* HEADER */
 header {
     background-color: #3161e0;
-    height: 70px;
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
 }
 
 .container-header{
-    position: fixed;
-
+    width: 80%;
+    margin: 0 auto;
 }
 
 .logo-discord {
@@ -29,8 +31,6 @@ nav, ul, li{
     display: inline-block;
     color: white;
     text-align: center;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 .btn-accedi {
@@ -39,6 +39,26 @@ nav, ul, li{
     padding: 8px;
     border: none;
     border-radius: 20px;
+}
+
+.col-dx{
+    float: left;
+    width: 25%;
+    text-align: right;
+
+}
+
+.col-centr{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.col-sx{
+    float: left;
+    width: 25%;
+    text-align: left;
+
 }
 
 /* HERO */
